@@ -1,4 +1,4 @@
-# Minimal configuration for OnePlus 6 (enchilada) NixOS Mobile
+# Minimal configuration for OnePlus 6T (fajita) NixOS Mobile
 # Focus on essentials: SSH, wireless, and basic tools
 
 { config, lib, pkgs, ... }:
