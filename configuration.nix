@@ -62,5 +62,20 @@
     kitty
   ];
 
+  users.users."ms" = {
+    isNormalUser = true;
+    uid = 1000;
+    # $ mkpasswd -m sha-512 "1234"
+    hashedPassword = "$6$sOgSAU508LEA5V27$ELHRCBPBmrX0ltZWuZJeRh/hNUa7IsAmemehK3.KAel6JPKRwBRZf9n2nck4wOeLN8UiSw6p01eLaqrE6Oa9K1";
+    extraGroups = [
+      "dialout"
+      "feedbackd"
+      "networkmanager"
+      "video"
+      #"audio"
+      "wheel"
+    ];
+  };
+
   system.stateVersion = "25.11";
 } 
