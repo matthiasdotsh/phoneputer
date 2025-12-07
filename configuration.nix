@@ -25,11 +25,6 @@
     firefox-mobile
   ];
 
-  # Auto-login for phosh
-  services.xserver.desktopManager.phosh = {
-    user = "ms";
-  };
-
   users.users."ms" = {
     isNormalUser = true;
     uid = 1000;

@@ -1,5 +1,20 @@
 {
   "nodes": {
+    "gnome-mobile": {
+      "locked": {
+        "lastModified": 1748795015,
+        "narHash": "sha256-+XyXaa3KmgOykQpo6k4XsEaHWDGj8inCxMMGOWat4EM=",
+        "owner": "chuangzhu",
+        "repo": "nixpkgs-gnome-mobile",
+        "rev": "825ebb10c8bf02cb4b6553f3b85e169dc92484d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chuangzhu",
+        "repo": "nixpkgs-gnome-mobile",
+        "type": "github"
+      }
+    },
     "mobile-nixos": {
       "flake": false,
       "locked": {
@@ -18,22 +33,23 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1764950072,
-        "narHash": "sha256-BmPWzogsG2GsXZtlT+MTcAWeDK5hkbGRZTeZNW42fwA=",
+        "lastModified": 1764836381,
+        "narHash": "sha256-8jemYbbW9EBttQKHep7Rj8kzXaxsrk/lACdXA2DN5Xk=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f61125a668a320878494449750330ca58b78c557",
+        "rev": "ff06bd3398fb1bea6c937039ece7e7c8aa396ebf",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-unstable",
+        "ref": "nixos-25.05",
         "repo": "nixpkgs",
         "type": "github"
       }
     },
     "root": {
       "inputs": {
+        "gnome-mobile": "gnome-mobile",
         "mobile-nixos": "mobile-nixos",
         "nixpkgs": "nixpkgs"
       }
