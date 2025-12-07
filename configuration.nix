@@ -40,5 +40,20 @@
     ];
   };
 
+  time.timeZone = "Europe/Berlin";
+  hardware = {
+    enableRedistributableFirmware = true;
+    graphics.enable = true;
+    sensor.iio.enable = true;
+  };
+
+  programs.calls.enable = true;
+  mobile.quirks.qualcomm.sdm845-modem.enable = true;
+  mobile.quirks.audio.alsa-ucm-meld = true;
+  mobile.beautification = {
+    silentBoot = false;
+    splash = true;
+  };
+
   system.stateVersion = "25.11";
 } 
