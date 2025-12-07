@@ -27,6 +27,7 @@
           inherit system;
           modules = [
             (import "${mobile-nixos}/lib/configuration.nix" { device = "oneplus-fajita"; })
+            (import "${mobile-nixos}/examples/phosh/phosh.nix")
             ./configuration.nix
           ];
         };
