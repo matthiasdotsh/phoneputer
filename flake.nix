@@ -10,7 +10,7 @@
     
     # Mobile-NixOS repository - provides mobile-specific modules and device support
     mobile-nixos = {
-      url = "github:mobile-nixos/mobile-nixos";
+      url = "github:matthiasdotsh/mobile-nixos/sdm845";
       flake = false; # We import it directly, not as a flake
     };
     gnome-mobile.url = "github:chuangzhu/nixpkgs-gnome-mobile";
